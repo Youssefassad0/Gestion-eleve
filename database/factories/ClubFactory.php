@@ -17,7 +17,7 @@ class ClubFactory extends Factory
     public function definition(): array
     {
         return [
-            "nom"=>fake()->title()
+            "nom" => fake()->city()
         ];
     }
 }

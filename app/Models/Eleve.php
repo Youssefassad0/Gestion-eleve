@@ -23,8 +23,4 @@ class Eleve extends Model
     {
         return $this->belongsToMany(Activite::class);
     }
-    public function getClub()
-    {
-        return Club::find($this->id_club)->nom;
-    }
 }

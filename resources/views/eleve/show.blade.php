@@ -12,6 +12,8 @@
 
 <body>
   <div class="container mt-5">
+    <button class="btn btn-primary" ><a href="{{ route('eleves.index') }}" style="color: aliceblue;text-decoration:none;" >Back Home</a></button>
+
     <h1 class="text-center">Eleve: {{ $eleve->nom }} {{ $eleve->prenom }}</h1>
 
     <table class="table">

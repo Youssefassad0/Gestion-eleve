@@ -12,6 +12,8 @@
 
 <body>
   <div class="container mt-5">
+    <button class="btn btn-primary" ><a href="{{ route('eleves.index') }}" style="color: aliceblue;text-decoration:none;" >Back Home</a></button>
+
     <h1 class="text-center">Modifier un élève</h1>
 
     <form action="{{ route('eleves.update', $eleve->id) }}" method="POST">
